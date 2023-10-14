@@ -1,0 +1,63 @@
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+main {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  ul {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+
+    li label span {
+      margin-left: 0.4rem;
+      color: $g;
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  .content_input {
+    position: relative;
+    border: solid $g;
+    width: 23rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    #generatePasswords {
+      font-size: 1rem;
+      user-select: contain;
+      width: 100%;
+      height: 100%;
+      padding: 0.5rem;
+      border-style: none;
+    }
+
+    label #copy {
+      position: absolute;
+      right: 0;
+      height: 100%;
+      width: 2.5rem;
+      background-color: $w;
+      border-radius: 0.3rem;
+      i {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  #generate {
+    margin-top: 1.5rem;
+    color: $w;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: $r;
+    border-bottom: solid #d30707 5px;
+    border-radius: 0.3rem;
+    padding: 0.7rem 2rem;
+  }
+}
